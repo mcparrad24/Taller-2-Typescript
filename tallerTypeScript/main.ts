@@ -51,7 +51,6 @@ function renderStudentInfoInTable(students: Student[]): void {
                            <td>${student.telefono}</td>`;
     studentTbody.appendChild(trElement);
   });
-  ;
 }
  
 function applyFilterByName() { 

@@ -28,7 +28,6 @@ function renderStudentInfoInTable(students) {
         trElement.innerHTML = "<td>" + student.nombre + "</td>\n                           <td>" + student.codigo + "</td>\n                           <td>" + student.cedula + "</td>\n                           <td>" + student.edad + "</td>\n                           <td>" + student.direccion + "</td>\n                           <td>" + student.telefono + "</td>";
         studentTbody.appendChild(trElement);
     });
-    ;
 }
 function applyFilterByName() {
     var text = inputSearchBox.value;
